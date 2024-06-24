@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html>
-<body>
+  <head>
+    <style>
+    
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+html, body {
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+  padding: 0;
+}
 
-<a href="django.html">django</a>
-<a href="excel.html">excel</a>
-<a href="cfd.html">cfd</a>
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
 
-</body>
+* {
+  box-sizing: border-box;
+}
+
+.text-node { background-clip: text !important; -webkit-background-clip: text !important; }
+
+/* Board */
+.board-6e5d44ba5d53 {
+  position: relative;
+  width: 600px;
+  height: 1000px;
+  background: #FFFFFF;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* Ellipse */
+.ellipse-8da29e3c9ade {
+  position: absolute;
+  left: 138px;
+  top: 317px;
+  width: 125px;
+  height: 125px;
+  background: #B1B2B5;
+  border-radius: 50%;
+}
+
+/* Rectangle */
+.rectangle-8da25029b55c {
+  position: absolute;
+  left: 390px;
+  top: 101px;
+  width: 74px;
+  height: 357px;
+  background: #B1B2B5;
+  border-radius: 0px;
+}
+
+/* Ellipse */
+.ellipse-8da2313cbb3f {
+  position: absolute;
+  left: 78px;
+  top: 85px;
+  width: 137px;
+  height: 137px;
+  background: #B1B2B5;
+  border-radius: 50%;
+}
+    </style>
+  </head>
+  <body>
+  <!-- frame: Board -->
+<div class="frame board-6e5d44ba5d53">
+  <!-- circle: Ellipse -->
+  <div class="shape circle ellipse-8da2313cbb3f">
+  </div>
+  <!-- rect: Rectangle -->
+  <div class="shape rect rectangle-8da25029b55c">
+  </div>
+  <!-- circle: Ellipse -->
+  <div class="shape circle ellipse-8da29e3c9ade">
+  </div>
+</div>
+  </body>
 </html>
