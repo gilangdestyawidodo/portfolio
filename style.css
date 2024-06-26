@@ -1,1 +1,100 @@
-a
+@font-face {
+    font-family: 'sourcesanspro';
+    font-style: normal;
+    font-weight: bold;
+    font-display: block;
+    src: url(https://design.penpot.app/fonts/sourcesanspro-bold.woff) format('woff');
+  }
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-node { background-clip: text !important; -webkit-background-clip: text !important; }
+
+/* Board */
+.board-6e5d44ba5d53 {
+  position: relative;
+  width: 100%;
+  background: #FFFFFF;
+  overflow: hidden;
+  display: grid;
+  align-items: start;
+  align-content: stretch;
+  justify-items: start;
+  justify-content: stretch;
+  z-index: 0;
+  flex-grow: 1;
+  grid-template-rows: 1fr 2fr 2fr;
+  grid-template-columns: 250px 550px;
+}
+
+/* Gilang Destya Widodo */
+.gilang-des-8e91fdb42d32 {
+  width: 385px;
+  height: 48px;
+  align-self: center;
+  justify-self: center;
+}
+.gilang-des-8e91fdb42d32 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.gilang-des-8e91fdb42d32 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.gilang-des-8e91fdb42d32 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.gilang-des-8e91fdb42d32 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-size: 40px;
+  font-family: "sourcesanspro";
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* Ellipse */
+.ellipse-8e91316c84c5 {
+  width: 200px;
+  height: 200px;
+  background: #B1B2B5;
+  border-radius: 50%;
+  align-self: center;
+  justify-self: center;
+}
